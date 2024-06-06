@@ -8,6 +8,7 @@ In robotics and other fields requiring accurate position and orientation data, n
 Calibrating a magnetometer involves compensating for both hard iron and soft iron distortions:
 
 Hard Iron Calibration: Detects and corrects continuous offset biases caused by nearby magnetic materials.
+
 Soft Iron Calibration: Rectifies distortions in the magnetic field caused by the device or adjacent magnetic materials, using transformation matrices.
 
 ### Sensor Data Processing and Integration
@@ -20,10 +21,12 @@ Sensor Fusion with GPS: Combines GPS data with IMU and magnetometer data to impr
 
 ### Yaw Estimation
 Combines accelerometer and gyroscope data with a complementary filter to estimate the yaw angle.
+
 Uses low-pass filtering for accelerometer data and high-pass filtering for gyroscope data to eliminate noise and drift.
 
 ### Forward Velocity Estimation
 Analyzes linear acceleration in the x-direction to determine the vehicle's forward acceleration.
+
 Corrects biases in forward speed estimation by filtering out stationary data and directly setting certain data points to zero.
 
 ### Dead Reckoning with IMU
@@ -31,7 +34,10 @@ Compares paths measured by IMU and GPS, noting minor discrepancies due to differ
 
 ### Key Figures
 Magnetometer Data Before and After Correction: Shows data before and after correcting hard iron and soft iron distortions.
+
 Yaw Estimation: Displays the gyro-integrated yaw and calibrated yaw, highlighting drift and noise.
+
 Forward Velocity Comparison: Compares IMU and GPS velocities, emphasizing the need for GPS correction.
+
 Displacement and Acceleration Comparisons: Illustrates the paths and acceleration measurements from IMU and GPS.
 
