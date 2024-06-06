@@ -12,8 +12,10 @@ Soft Iron Calibration: Rectifies distortions in the magnetic field caused by the
 
 ### Sensor Data Processing and Integration
 #### Noise Reduction
-Low-pass Filters: Eliminate high-frequency interference from sensor data while maintaining essential signals.
+Low-pass Filters: Eliminate high-frequency interference from sensor data while maintaining essential signals. 
+
 Dead Reckoning: Estimates linear and angular motion using accelerometer and gyroscope data. Critical for position estimation without external references.
+
 Sensor Fusion with GPS: Combines GPS data with IMU and magnetometer data to improve navigation accuracy, correcting drift and long-term errors.
 
 ### Yaw Estimation
