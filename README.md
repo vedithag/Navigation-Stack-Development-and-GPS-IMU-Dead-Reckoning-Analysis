@@ -41,3 +41,12 @@ Forward Velocity Comparison: Compares IMU and GPS velocities, emphasizing the ne
 
 Displacement and Acceleration Comparisons: Illustrates the paths and acceleration measurements from IMU and GPS.
 
+## Skills and Knowledge Demonstrated
+
+- **Sensor Calibration**: Proficiency in hard and soft iron calibration techniques for magnetometers, understanding of how to eliminate magnetic distortions to ensure precise heading data.
+- **Signal Processing**: Competence with low-pass and high-pass filtering for IMU data to manage noise and drift, enhancing data quality for subsequent calculations.
+- **Data Fusion**: Knowledge of complementary filtering and sensor fusion with GPS, ensuring robust positional accuracy and orientation estimates over extended periods.
+- **Dead Reckoning**: Expertise in using IMU data to estimate displacement and velocity via integration, along with techniques to minimize drift.
+- **Error Correction and Bias Handling**: Applied methods to identify and remove stationary data biases and integrate GPS data to correct for accumulated IMU errors.
+- **Technical Documentation and Analysis**: Produced detailed documentation, analyzing IMU and magnetometer data, presenting sensor fusion results, and using plots to visually represent calibration improvements and fusion accuracy.
+
